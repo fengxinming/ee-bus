@@ -1,5 +1,14 @@
 # ee-bus
 
+[![npm package](https://nodei.co/npm/ee-bus.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ee-bus)
+
+> Node's event emitter for all engines.
+
+[![NPM version](https://img.shields.io/npm/v/ee-bus.svg?style=flat)](https://npmjs.org/package/ee-bus)
+[![NPM Downloads](https://img.shields.io/npm/dm/ee-bus.svg?style=flat)](https://npmjs.org/package/ee-bus)
+[![](https://data.jsdelivr.com/v1/package/npm/ee-bus/badge)](https://www.jsdelivr.com/package/npm/ee-bus)
+
+
 ## Installation
 
 ```bash
