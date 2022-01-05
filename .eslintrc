@@ -1,5 +1,6 @@
 {
   "extends": [
-    "fe"
+    "fe",
+    "fe/ts"
   ]
 }
