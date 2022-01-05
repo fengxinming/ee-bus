@@ -18,7 +18,7 @@
   "author": "Jesse <fxm0016@126.com>",
   "license": "MIT",
   "dependencies": {
-    "celia": "^8.0.0"
+    "celia": "^8.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.14.0",

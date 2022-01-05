@@ -7,7 +7,7 @@ import Event, {
   forEachEvent,
   EventHandler
 } from './event';
-import { isFunction, isObject, forOwn, emptyOwn } from '@ali/iot-cloud-util';
+import { isFunction, isObject, forOwn, emptyOwn } from 'celia';
 
 function addListener(
   emitter: Emitter,
