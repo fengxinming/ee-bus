@@ -93,6 +93,7 @@ interface Emitter {
 type EmitterConstructor = new (opts?: EmitterOptions) => Emitter;
 
 interface EmitterOptions {
+  [key: string]: any;
   event?: boolean;
 }
 
@@ -109,10 +110,10 @@ interface Event {
 }
 
 type EventConstructor = new (
-  type: any,
-  target: any,
-  currentTarget: any
-) => Event;
+    type: any,
+    target: any,
+    currentTarget: any
+  ) => Event;
 
 interface EventHandler {
   fn: (evt?: Event, ...args: any[]) => any;
@@ -121,10 +122,10 @@ interface EventHandler {
 }
 
 type EventHandlerConstructor = new (
-  fn: (evt?: Event, ...args: any[]) => any,
-  once: boolean,
-  ctx: any
-) => EventHandler;
+    fn: (evt?: Event, ...args: any[]) => any,
+    once: boolean,
+    ctx: any
+  ) => EventHandler;
 
 interface EventHandlers {
   [eventName: string]: EventHandler[];
